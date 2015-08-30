@@ -5,7 +5,7 @@ depends:
   plugin:
   - gtk
   - gui
-version: '0.0.1'
+version: '0.0.2'
 author: moguno
 name: mikutter-sin_cos_clock
 description: 社会に出てもサインコサインは役に立つのです（か？）
