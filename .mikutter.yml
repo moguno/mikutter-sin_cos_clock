@@ -1,0 +1,11 @@
+---
+slug: :mikutter-sin_cos_clock
+depends:
+  mikutter: 3.2.0
+  plugin:
+  - gtk
+  - gui
+version: '0.0.1'
+author: moguno
+name: mikutter-sin_cos_clock
+description: 社会に出てもサインコサインは役に立つのです（か？）
