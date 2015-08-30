@@ -82,6 +82,7 @@ module MikutterSinCosClock
       x2 = param[:distance] * Math.cos(param[:angle])
       y2 = param[:distance] * Math.sin(param[:angle])
 
+      context.set_line_cap(Cairo::LineCap::ROUND)
       context.set_source_color(param[:color])
       context.set_line_width(param[:width])
       context.move_to(x1.to_i, y1.to_i)
